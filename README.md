@@ -17,11 +17,13 @@ The system models a simple flower shop where bouquets and flowers can be managed
 - **Operator Overloading**: The system uses operator overloading for comparing and displaying flowers and bouquets.
 
 ### Example Usage
+```cpp
 Cvet cvet1("Ruza", 2, 3), cvet2("Ljubicica", 3, 5);
 Buket b1;
 b1.Add(&cvet1);
 b1.Add(&cvet2);
 cout << b1;  // Prints bouquet details
+```
 
 ## Homework 1: Library system
 
