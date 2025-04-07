@@ -40,6 +40,14 @@ This project implements a **library system** where books can be added, searched,
 - **Operator Overloading**: For adding books to the library and printing details.
 - **Memory Management**: Proper allocation and deallocation of memory.
 
+### Example Usage
+```cpp
+Knjiga k1("Glupost", "Alexlmao");
+Biblioteka b1("Laza Kostic", 100);
+b1 += k1;  // Adds the book
+cout << b1;  // Prints the library
+```
+
 # Homework 3: Set and Word System
 
 This project implements a **set and word system** where characters in a word are managed using linked lists. The task demonstrates various C++ features such as operator overloading and dynamic memory management.
@@ -56,16 +64,11 @@ This project implements a **set and word system** where characters in a word are
 - **Dynamic Memory Management**: Proper handling of dynamically allocated memory for the set and word.
 
 ### Example Usage
-
+```cpp
 Skup s("mama");
 s += 'a';  // Adds 'a' to the set
 Rec rec1("Pica"), rec2("Banana");
 bool rima1 = rec1 ^ rec2;  // Checks if the words "Pica" and "Banana" rhyme
 cout << (rima1 ? "Rimuju se" : "Ne rimuju se") << endl;
+```
 
-### Example Usage
-
-Knjiga k1("Glupost", "Alexlmao");
-Biblioteka b1("Laza Kostic", 100);
-b1 += k1;  // Adds the book
-cout << b1;  // Prints the library
